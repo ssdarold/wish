@@ -7,7 +7,7 @@ def GetUserID(telegram_id):
         cursor = conn.cursor()
 
         # Получение значения столбца id из таблицы main_user по tg_id
-        cursor.execute("SELECT id FROM main_user WHERE tg_id = ?", (telegram_id,))
+        cursor.execute("SELECT id FROM main_users WHERE tg_id = ?", (telegram_id,))
         result = cursor.fetchone()
 
         # Закрытие соединения
