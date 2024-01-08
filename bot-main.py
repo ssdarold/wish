@@ -20,7 +20,7 @@ import qrcode
 from aiogram.types import InputFile
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 
-bot = Bot(token="573458948:AAFKzIe-RW9Xf3nNWDeoq6THa6ZgovqkZL8")
+bot = Bot(token="")
 dp = Dispatcher(bot, storage=MemoryStorage())
 
 # ====== Базовые настройки =====
